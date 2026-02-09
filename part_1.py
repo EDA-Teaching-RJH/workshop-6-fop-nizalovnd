@@ -19,7 +19,7 @@ def main():
     print(new_findings)
     try:
         index = sample_bay.index("Dust")
-        sample_bay.remove(index)
+        sample_bay.pop(index)
     except:
         print("Dust was not found in the sample bay")
     print(sample_bay)
